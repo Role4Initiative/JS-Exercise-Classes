@@ -151,6 +151,9 @@ class Instructor extends Lambdasian{
     return `${student.name} receives a perfect score on ${subject}`
   }
 }
+
+console.log('Task 4 = complete')
+
 /*
   TASK 5
     - Write a Student class extending Lambdasian.
@@ -184,6 +187,8 @@ class Student extends Lambdasian{
    }
 }
 
+console.log('Task 5 = complete')
+
 /*
   TASK 6
     - Write a ProjectManager class extending Instructor.
@@ -210,6 +215,9 @@ class ProjectManager extends Instructor{
      return `${this.name} debugs ${student.name}'s code on ${subject}`
    }
 }
+
+console.log('Task 6 = complete')
+
 /*
   STRETCH PROBLEM (no tests!)
     - Extend the functionality of the Student by adding a prop called grade and setting it equal to a number between 1-100.
